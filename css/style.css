@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  background-color: #f2f2f2;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .card-container {
+  max-width: 300px;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  padding: 50px 50px;
+}
+
+section .card-container h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 28px;
+  padding-top: 30px;
+}
+
+section .card-container p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 30px 0;
+}
+
+section .card-container button {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  width: 75%;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+}
+
+#card1 {
+  background-color: #e38826;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#card2 {
+  background-color: #006970;
+}
+
+#card3 {
+  background-color: #004241;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#button1 {
+  color: #e38826;
+}
+
+#button2 {
+  color: #006970;
+}
+
+#button3 {
+  color: #004241;
+}
+
+#button1:hover, #button2:hover, #button3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 730px) {
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    padding: 20px 10px;
+  }
+  section .card-container {
+    padding: 40px 40px;
+  }
+  section .card-container h2 {
+    font-size: 28px;
+    padding-top: 0px;
+  }
+  section .card-container p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #f2f2f2;
+    font-size: 14px;
+    padding: 0 0;
+  }
+  section .card-container button {
+    width: 75%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+  }
+  section #card1 {
+    border-radius: 10px 10px 0px 0px;
+  }
+  section #card2 {
+    background-color: #006970;
+  }
+  section #card3 {
+    background-color: #004241;
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
