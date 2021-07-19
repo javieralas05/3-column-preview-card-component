@@ -33,14 +33,15 @@ section .card-container {
 section .card-container h2 {
   font-family: 'Big Shoulders Display', cursive;
   color: #f2f2f2;
-  font-size: 28px;
+  font-size: 50px;
   padding-top: 30px;
+  text-transform: uppercase;
 }
 
 section .card-container p {
   font-family: 'Lexend Deca', sans-serif;
   color: #f2f2f2;
-  font-size: 14px;
+  font-size: 16px;
   padding: 30px 0;
 }
 
@@ -102,7 +103,7 @@ section .card-container button {
     padding: 40px 40px;
   }
   section .card-container h2 {
-    font-size: 28px;
+    font-size: 38px;
     padding-top: 0px;
   }
   section .card-container p {
